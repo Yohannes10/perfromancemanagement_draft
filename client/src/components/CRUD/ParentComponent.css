@@ -1,0 +1,31 @@
+/* ParentComponent.css */
+.task-list-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .task-list-inner-container {
+    max-width: 950px;
+    display: flex;
+    justify-content: flex-end; /* Push the cards to the right */
+  }
+  
+
+
+  .yes-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .no-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }

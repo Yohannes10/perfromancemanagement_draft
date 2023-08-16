@@ -1,0 +1,90 @@
+.glass{
+    background: rgba(255, 255, 255, 0.55);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px #4747470b;
+    backdrop-filter: blur(7.1px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    @apply border-4 border-gray-50 shrink-0 h-3/4 w-[30%] rounded-3xl py-20 px-7 min-w-max;
+}
+
+.profile_img{
+    @apply border-4 border-gray-100 w-[135px] rounded-full shadow-lg cursor-pointer;
+    @apply hover:border-gray-200;
+}
+
+.textbox{
+    @apply border-0 px-5 py-4 rounded-xl w-3/4 shadow-sm text-lg;
+    @apply focus:outline-none;
+}
+
+.btn{
+    @apply border bg-indigo-500 w-3/4 py-4 rounded-lg text-gray-50 text-xl shadow-sm text-center;
+}
+
+.btn:hover{
+    background-color: #ff6a6a;
+}
+
+input[type='file']{
+    display: none;
+}
+
+
+/* Add these styles to your existing CSS file */
+.passwordStrength {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  .strengthScore {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .strengthBar {
+    width: 100%;
+    height: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 5px;
+  }
+  
+  .strengthIndicator {
+    height: 100%;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .strength-0 {
+    width: 0;
+    background-color: #d9534f;
+  }
+  
+  .strength-1 {
+    width: 25%;
+    background-color: #d9534f;
+  }
+  
+  .strength-2 {
+    width: 50%;
+    background-color: #f0ad4e;
+  }
+  
+  .strength-3 {
+    width: 75%;
+    background-color: #5bc0de;
+  }
+  
+  .strength-4 {
+    width: 100%;
+    background-color: #5cb85c;
+  }
+  
+  .suggestions {
+    margin-top: 5px;
+    list-style: disc;
+    padding-left: 20px;
+    color: #d9534f;
+  }
+  

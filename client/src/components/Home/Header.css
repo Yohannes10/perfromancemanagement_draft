@@ -1,0 +1,36 @@
+/* Your existing CSS styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  .icon {
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  
+  /* Add the following styles to make the icons in the header-right appear horizontally */
+  .icon-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Add the following styles for the search bar */
+  .searchBar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+  }
+  
+  .searchBar input {
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-left: 5px;
+  }
+  

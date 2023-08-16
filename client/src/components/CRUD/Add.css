@@ -1,0 +1,21 @@
+/* Add.css */
+
+/* Styling for the h2 element */
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the h4 element */
+  h4 {
+    font-size: 16px;
+    font-weight: normal;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  .bold-first-letter {
+    font-weight: bold;
+  }

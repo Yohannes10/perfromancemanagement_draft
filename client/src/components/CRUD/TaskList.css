@@ -1,0 +1,9 @@
+/* Add this style to your CSS file */
+.delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  

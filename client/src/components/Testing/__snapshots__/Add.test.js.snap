@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`handles input change and matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="col-md-6 offset-md-3"
+  >
+    <div
+      class="card card-body"
+    >
+      <h2>
+        Create a Goal
+      </h2>
+      <div>
+        <h4>
+          Goals describe specific objectives you want to achieve in your job, for a specific period of time. Goals change on every period. Make sure you define goals in SMART terms —
+          <span
+            class="bold-first-letter"
+          >
+            S
+          </span>
+          pecific,
+          <span
+            class="bold-first-letter"
+          >
+            M
+          </span>
+          easurable,
+          <span
+            class="bold-first-letter"
+          >
+            A
+          </span>
+          ttainable,
+          <span
+            class="bold-first-letter"
+          >
+            R
+          </span>
+          ealistic, and
+          <span
+            class="bold-first-letter"
+          >
+            T
+          </span>
+          ime-bound.
+        </h4>
+      </div>
+      <form>
+        <div
+          class="mb-3"
+        >
+          <div
+            class="form-group"
+          >
+            <select
+              class="form-control"
+              name="departmentalGoal"
+              placeholder="Select a Departmental Goal"
+              required=""
+            >
+              <option
+                value=""
+              >
+                Select a goal...
+              </option>
+            </select>
+          </div>
+          <div>
+            <input
+              class="form-control"
+              name="title"
+              placeholder="Goal title"
+              required=""
+              type="text"
+              value="New Task Title"
+            />
+          </div>
+          <div>
+            <input
+              class="form-control"
+              name="description"
+              placeholder="Goal description"
+              required=""
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="form-group"
+        >
+          <div
+            class="react-datepicker-wrapper"
+          >
+            <div
+              class="react-datepicker__input-container"
+            >
+              <input
+                class="form-control"
+                type="text"
+                value="08/15/2023"
+              />
+            </div>
+          </div>
+        </div>
+        <button
+          class="btn btn-primary btn btn-primary"
+          type="submit"
+        >
+          Add Goal
+        </button>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;

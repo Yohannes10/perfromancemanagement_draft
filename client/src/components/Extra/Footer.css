@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Phudu:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+.footer {
+  position: fixed; /* Set the footer to a fixed position */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color:#060b26;
+  color: #fff;
+  padding: 5px 0;
+  text-align: center;
+  align-items: center; /* Add this to vertically center the elements */
+
+}
+
+
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+    margin-bottom: 20px; /* Adjust margin as needed */
+    display: flex; /* Add this to make the footer-col content align horizontally */
+  flex-direction: column; /* Add this to align the content vertically inside footer-col */
+}
+
+.footer-col h4 {
+    font-size: 14px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 12px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    color:  white;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: white;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: white;
+    background-color: #ffffff;
+}
+
+ul {
+    list-style: none;
+}
+.footer .row {
+  display: flex; /* Add this to make the footer-col elements align horizontally */
+  justify-content: space-between; /* Add this to evenly distribute the footer-col elements */
+  padding: 10px 0; /* Adjust the padding as per your design */
+  margin: 0; /* Remove any margin to reduce extra space */
+}
+
+/*responsive*/
+@media(max-width: 900px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
